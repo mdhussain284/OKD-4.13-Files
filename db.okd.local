@@ -28,8 +28,8 @@ api-int.lab.okd.local.    IN    A    192.168.100.210
 etcd-0.lab.okd.local.    IN    A     192.168.100.201
 etcd-1.lab.okd.local.    IN    A     192.168.100.202
 etcd-2.lab.okd.local.    IN    A    192.168.100.203
-console-openshift-console.apps.lab.okd.local.     IN     A     192.168.1.210
-oauth-openshift.apps.lab.okd.local.     IN     A     192.168.1.210
+console-openshift-console.apps.lab.okd.local.     IN     A     192.168.100.210
+oauth-openshift.apps.lab.okd.local.     IN     A     192.168.100.210
 
 ; OpenShift internal cluster IPs - SRV records
 _etcd-server-ssl._tcp.lab.okd.local.   IN    SRV     0    10    2380    etcd-0.lab.okd.local.
