@@ -11,13 +11,13 @@ compute:
 controlPlane:
   hyperthreading: Enabled
   name: master
-  replicas: 3
+  replicas: 1
 
 networking:
   clusterNetwork:
   - cidr: 10.128.0.0/14 
     hostPrefix: 23 
-  networkType: OpenShiftSDN
+  networkType: OVNKubernetes
   serviceNetwork: 
   - 172.30.0.0/16
 
